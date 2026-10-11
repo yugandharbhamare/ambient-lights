@@ -1,0 +1,15 @@
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Secrets: never commit Tuya credentials (tinytuya wizard output) or env files
+devices.json
+tinytuya.json
+tuya-raw.json
+snapshot.json
+tuya-keys/
+*.key
+.env
+.env.*
